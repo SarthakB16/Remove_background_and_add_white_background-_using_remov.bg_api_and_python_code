@@ -23,5 +23,5 @@ img2 = Image.open(r"no-bg.png")
 # starting at coordinates (0, 0) 
 # simulating an raster overlay
 img1.paste(img2, (0,0), mask = img2)
-  
+img1.save("final_picture.png")
 img1.show()
